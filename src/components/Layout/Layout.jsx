@@ -11,8 +11,6 @@ const Layout = (Component, idName) =>
                     &nbsp;
                 </span>
                 <Component />
-               
-
             </motion.section>
         )
     }
