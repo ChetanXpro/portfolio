@@ -15,4 +15,4 @@ const Tech = () => {
   )
 }
 
-export default Layout(Tech)
+export default Layout(Tech,"tech")

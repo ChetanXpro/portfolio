@@ -6,6 +6,7 @@ import { styles } from "../style";
 
 import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
+import { Layout } from './Layout';
 
 const FeedbackCard = ({
   index,
@@ -64,4 +65,4 @@ const Feedbacks = () => {
   );
 };
 
-export default Feedbacks
+export default Layout(Feedbacks)
